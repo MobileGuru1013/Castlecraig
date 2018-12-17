@@ -1,0 +1,137 @@
+table {
+	width: 100%;
+	margin-top: 50px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+#qc-reset-stats {
+	float: right;
+}
+#qc-stat-nav {
+	margin-top: 10px;
+	padding-bottom: 15px;
+}
+#qc-stat-nav a {
+	text-decoration: none;
+}
+#qc-stat-nav .nav-tab-wrapper {
+	margin-top: 10px;
+}
+
+#wpwrap {
+	background-color: #fff;
+}
+
+.qc-helptext {
+	font-style: italic;
+}
+/** USING THIS TO CALC VIEW HEIGHTS ANIMATION **/
+#vh-60 {
+	height: 50vh;
+	position: fixed;
+	width: 0px;
+	visibility: hidden;
+}
+
+.headings th {
+	font-size: 18px;
+	padding-bottom: 16px;
+}
+
+.percent td {
+	font-size: 24px;
+	padding-top: 16px;
+}
+
+.count td {
+	font-size: 14px;
+	padding-top: 16px;
+	padding-right: 7px;
+}
+
+.qc-stats-div, .qc-results-div, .qc-answer-div {
+	transition: all 0.63s ease;
+	height: 0px;
+}
+
+th, td{
+	box-sizing: border-box;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#quiz-results td, .quiz-response td {
+	vertical-align: bottom;
+}
+
+.quiz-response .headings th {
+	font-size: 14px;	
+}
+
+h3.quiz-question {
+	margin-top: 10vh;
+	font-size: 20px;
+	text-align: center;
+}
+
+.quiz-question-img {
+	display: block;
+    max-width: 98%;
+    max-height: 350px;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.vis td {
+	height: 50vh;
+	border-bottom: 1px solid #ddd;
+}
+.quiz-response .vis td {
+	height: 25vh;
+}
+#impressions-div {
+	background-color: #2f4959;
+}
+#starts-div {
+	background-color: #2573a6;
+}
+#completions-div {
+	background-color: #3096d9;
+}
+#optins-div {
+	background-color: #2980b9;
+}
+#shares-div {
+	background-color: #74b5df;
+}
+
+
+
+@media (max-width: 600px) {
+	#qc-reset-stats {
+		float: none;
+		display: block;
+		margin-top: 10px;
+	}
+
+	.headings th {
+		font-size: 12px;
+		padding-bottom: 10px;
+	}
+
+	.percent td {
+		font-size: 18px;
+		padding-top: 10px;
+	}
+
+	.count td {
+		font-size: 12px;
+		padding-top: 10px;
+		padding-right: 7px;
+	}
+}
+

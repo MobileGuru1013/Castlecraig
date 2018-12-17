@@ -1,0 +1,53 @@
+.stp-status {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    position: relative;
+    background: rgb(233, 233, 233);
+    top: 3px;
+    margin-right: 5px;
+}
+
+.stp-status.active {
+    background: #4FC3F1;
+}
+
+.stp-status.inactive {
+    background: #F5A34E;
+}
+
+.ots-portal-notice {
+    padding: 8px 10px;
+    margin: 10px 0;
+}
+
+.ots-portal-notice p {
+    margin: 0;
+}
+
+#ots-portal-restrict-access tr:nth-child(odd),
+#ots-portal-restrict-groups tr:nth-child(odd) {
+    background: #fff;
+}
+
+#ots-portal-restrict-access tr:nth-child(even),
+#ots-portal-restrict-groups tr:nth-child(even) {
+    background: #fafafa;
+}
+
+.inline-edit-col .ots-toggle {
+    margin-bottom: 0;
+}
+#ots-inline-edit .ots-toggle label.switch {
+    max-width: 100%;
+}
+
+#ots-inline-edit label span.title {
+    width: 100px !important;
+}
+
+#ots-inline-edit label.alignleft {
+    max-width: 100% !important;
+    width: 100% !important;
+}

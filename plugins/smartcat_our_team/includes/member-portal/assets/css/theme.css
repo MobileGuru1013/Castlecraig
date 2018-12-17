@@ -1,0 +1,290 @@
+/**
+*
+* 1. App Skin
+* 1. Business Skin
+*/
+
+
+
+/*----------------- 1. App Skin ----------------*/
+
+.skin-app a {
+    color: #365899;
+}
+
+.skin-app .navbar-default .navbar-toggle {
+    background: #ff5e3a;
+}
+
+.skin-app .navbar-default .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+
+.skin-app h1,
+.skin-app h2,
+.skin-app h3,
+.skin-app h4,
+.skin-app h5,
+.skin-app h6 {
+    font-weight: 700;
+    color: #515365;
+}
+
+.skin-app h1 a,
+.skin-app h2 a,
+.skin-app h3 a,
+.skin-app h4 a,
+.skin-app h5 a,
+.skin-app h6 a{
+    color: #515365;
+}
+
+.skin-app .author-name{
+    color: #515365;
+}
+
+body.skin-app.ots-portal {
+    background: #edf2f6;
+}
+
+
+.skin-app .navbar.navbar-default{
+    background: #fff;
+    box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1)
+}
+
+.skin-app #footer,
+.skin-app #sidebar{
+    background: #3f4257;
+}
+
+.skin-app #sidebar ul > li a > * {
+    color: #fff;
+}
+
+.skin-app #sidebar ul > li.active span {
+    color: #ff5e3a;
+}
+
+.skin-app .profile-contact .social-link {
+    background: #38a9ff;
+    color: #fff;
+}
+
+.skin-app .post .metadata > * {
+    color: #515365;
+}
+
+.skin-app .copyright {
+    color: #fff;
+}
+
+.skin-app .navbar.navbar-default .name,
+.skin-app .navbar.navbar-default .caret,
+.skin-app .navbar.navbar-default .title{
+    color: #515365;
+}
+
+.skin-app .panel {
+    border: 1px solid #e6ecf5;
+    color: #888da8;
+}
+
+.skin-app #sidebar {
+    box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
+}
+
+.skin-app .comments .comment {
+    background: #fafbfd;
+    border-color: #e6ecf5;
+}
+
+.skin-app hr {
+    border-top: 1px solid #e6ecf5;
+}
+
+.skin-app .glyphicon.liked {
+    color: #ff5e3a;
+}
+
+.skin-app .comments-exist.glyphicon-comment {
+    color: #38a9ff;
+}
+
+.skin-app #sidebar ul > li:first-child {
+    background: #ff5e3a;
+}
+
+.skin-app #sidebar ul > li:first-child a span {
+    color: #fff;
+}
+
+.skin-app .profile-header .no-cover-photo {
+    background-color: #ff5e3a;
+}
+
+.skin-app .btn.btn-default{
+    background-color: #fff;
+    border-color: #d8dbe6;
+}
+
+.skin-app .btn.btn-primary{
+    background-color: #ff5e3a;
+    border-color: #ff5e3a;
+    color: #fff;
+}
+
+.skin-app #header .profile-img {
+    border: 2px solid #38a9ff;
+}
+
+.skin-app .input-group-addon {
+    background: #fff;
+    color: #38a9ff;
+}
+
+
+.skin-app .edit-profile-link {
+    background: #ff5e3a;
+}
+
+/*----------------- 2. Business Skin ----------------*/
+
+.skin-business a {
+    color: #365899;
+}
+
+.skin-business .navbar-default .navbar-toggle {
+    background: #0084bf;
+}
+
+.skin-business .navbar-default .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+
+.skin-business h1,
+.skin-business h2,
+.skin-business h3,
+.skin-business h4,
+.skin-business h5,
+.skin-business h6 {
+    font-weight: 700;
+    color: #515365;
+}
+
+.skin-business h1 a,
+.skin-business h2 a,
+.skin-business h3 a,
+.skin-business h4 a,
+.skin-business h5 a,
+.skin-business h6 a{
+    color: #515365;
+}
+
+.skin-business .author-name{
+    color: #515365;
+}
+
+body.skin-business.ots-portal {
+    background: #f5f5f5;
+}
+
+
+.skin-business .navbar.navbar-default{
+    background: #fff;
+    box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1)
+}
+
+.skin-business #footer,
+.skin-business #sidebar{
+    background: #283e4a;
+}
+
+.skin-business #sidebar ul > li a > * {
+    color: #fff;
+}
+
+.skin-business #sidebar ul > li.active span {
+    color: #0084bf;
+}
+
+.skin-business .profile-contact .social-link {
+    background: #0084bf;
+    color: #fff;
+}
+
+.skin-business .post .metadata > * {
+    color: #515365;
+}
+
+.skin-business .copyright {
+    color: #fff;
+}
+
+.skin-business .navbar.navbar-default .name,
+.skin-business .navbar.navbar-default .caret,
+.skin-business .navbar.navbar-default .title{
+    color: #515365;
+}
+
+.skin-business .panel {
+    border: 1px solid #e6ecf5;
+    color: #888da8;
+}
+
+.skin-business #sidebar {
+    box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
+}
+
+.skin-business .comments .comment {
+    background: #fafbfd;
+    border-color: #e6ecf5;
+}
+
+.skin-business hr {
+    border-top: 1px solid #e6ecf5;
+}
+
+.skin-business .glyphicon.liked {
+    color: #0084bf;
+}
+
+.skin-business .comments-exist.glyphicon-comment {
+    color: #0084bf;
+}
+
+.skin-business #sidebar ul > li:first-child {
+    background: #0084bf;
+}
+
+.skin-business #sidebar ul > li:first-child a span {
+    color: #fff;
+}
+
+.skin-business .profile-header .no-cover-photo {
+    background-color: #0084bf;
+}
+
+.skin-business .btn.btn-default{
+    background-color: #fff;
+    border-color: #d8dbe6;
+}
+
+.skin-business .btn.btn-primary{
+    background-color: #0084bf;
+    border-color: #0084bf;
+    color: #fff;
+}
+
+.skin-business #header .profile-img {
+    border: 2px solid #0084bf;
+}
+
+.skin-business .input-group-addon {
+    background: #fff;
+    color: #0084bf;
+}
+
+.skin-business .edit-profile-link {
+    background: #0084bf;
+}

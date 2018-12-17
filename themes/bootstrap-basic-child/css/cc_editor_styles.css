@@ -1,0 +1,330 @@
+/*
+Custom editor styles 
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i|Lora:400,400i,700,700i');
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Lora', serif;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+h1, h2, h3, h4 {
+    color: #583A58;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 55px;
+    margin: 0 0 30px;
+}
+
+
+h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 0 0 20px;
+}
+
+h2.Callout {
+    color: #583A58;	
+    font-family: 'Lora';	
+    font-size: 30px;	
+    font-style: italic;	
+    font-weight: 400;
+    line-height: 40px;
+    padding: 5px 0 5px 30px;
+    border-left: solid 4px #583A58;
+}
+
+h3 {
+    font-size: 25px;
+    line-height: 35px;
+    margin: 0 0 15px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 10px;
+}
+
+/*
+* Custom styles for classes added trough TinyMCE
+*/
+.alignLeft {
+    text-align: left;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.borderTopThick {
+    border-top: solid 5px #583A58;
+    padding: 30px 0 0;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+a.angleRight {
+    position: relative;
+    padding-left: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+a.angleRight:before {
+    font-family: 'FontAwesome';
+    line-height: 1em;
+    content: '\f105';
+    position: absolute;
+    top:2px;
+    left:0;
+    right: auto;
+    bottom: auto;
+}
+
+.greyText {
+    clear:both;
+    color: #999999;	
+    font-family: 'Lora', serif;	
+    font-size: 16px;	
+    line-height: 19px;
+}
+
+ul.successList,
+ul.anglerightVdotList {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+ul.successList {
+    padding: 30px 0 15px;
+}
+
+ul.successList li {
+    color: #583A58;
+    margin-bottom: 15px;
+    max-width: 290px;
+    margin: 0 auto;
+}
+
+ul.successList li strong {
+    font-size: 72px;
+}
+
+
+ul.anglerightVdotList li {
+    position: relative;
+    color: #0885B4;	
+    font-family: 'Lora', serif;	
+    font-size: 20px;	
+    line-height: 32px;
+    padding-left: 40px;
+    margin-bottom: 12px;
+}
+
+ul.anglerightVdotList li:before {
+    color: #fff;
+    background-color: #583a58;
+    font-family: 'FontAwesome';
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    content: '\f105';
+    position: absolute;
+    top: 6px;
+    left: 0;
+    right: auto;
+    bottom: auto;
+    padding:0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+ul.prio1List  {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul.prio1List li {
+    background-color: #FFEBCD;
+    padding: 30px;
+    width: 48%;
+    margin-bottom: 30px;
+}
+
+ul.prio1List li h4 {
+    color: black;
+    font-family: 'Lato';	
+    font-size: 22px;	
+    font-weight: 900;	
+    line-height: 26px;
+}
+
+ul.prio1List li p {
+    color: black;
+    font-family: 'Lora';	
+    font-size: 16px;	
+    line-height: 26px;
+}
+
+ul.yellowdList {
+    padding: 15px 0;
+    list-style: none;
+}
+
+ul.yellowdList li {
+    padding: 0 0 0 30px;
+    list-style: none;
+    position: relative;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+ul.yellowdList li:after {
+    color: #E39631;
+    position: absolute;
+    font-family: 'FontAwesome';
+    font-size: 12px;
+    content: "\f111";
+    left: 0;
+    top: 0;
+    bottom: auto;
+    right: auto;
+}
+
+ul.yellowdList.roseBackground {
+    background-color: #FFECCD;
+    padding: 30px;
+}
+
+ul.drugsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.drugsList li {
+    width: 33.33333%;
+    padding: 30px 30px 30px 0;
+    border-bottom: 1px solid #E0E0E0;
+    color: #0885B4;	
+    font-family: 'Lato',sans-serif;	
+    font-size: 20px;	
+    line-height: 24px;
+}
+
+ul.violetsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.violetsList li {
+    float:left;
+    width: 160px;
+    height: 160px;
+    margin: 0 10px 20px 10px;
+    padding: 60px 10px 0;
+    color: #fff;
+    background-color: #a37ca3;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.25em;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 992px) {
+    ul.successList li {
+        width: 33.3333%;
+        padding: 0 15px;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    ul.violetsList li {
+        width: 180px;
+        height: 180px;
+        margin: 0 15px 30px 15px;
+        padding: 70px 15px 0;
+        font-size: 20px;
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+    ul.drugsList li {
+        width: 50%;
+        padding:20px 15px 20px 0;
+    }
+    
+    ul.violetsList li {
+        width: 140px;
+        height: 140px;
+        margin: 0 10px 15px 10px;
+        padding: 55px 10px 0;
+        font-size: 17px;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    ul.prio1List li {
+        width: 100%;    
+    }
+    
+    ul.drugsList li {
+        width: 100%;
+        padding:15px 0;
+    }
+    
+    ul.violetsList {
+        text-align: center;
+    }
+    
+    ul.violetsList li {
+        float:none;
+        width: 180px;
+        height: 180px;
+        margin: 0 auto 30px;
+        padding: 70px 15px 0;
+        font-size: 20px;
+    }
+}
